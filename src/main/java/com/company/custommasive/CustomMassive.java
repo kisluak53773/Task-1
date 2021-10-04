@@ -1,7 +1,7 @@
 package com.company.custommasive;
 
 public class CustomMassive {
-    private int [] mas;
+    private int [] mas=null;
 
     public CustomMassive(){
     }
@@ -20,7 +20,7 @@ public class CustomMassive {
     public String ToStr(){
         StringBuilder sb=new StringBuilder();
         for(int num:mas){
-            sb.append(sb).append("");
+            sb.append(sb).append("\s");
         }
         return sb.toString();
     }
