@@ -1,5 +1,6 @@
-package com.company.service.impl;
+package com.company.parser;
 
+import com.company.parser.impl.ParserImplementation;
 import org.testng.annotations.Test;
 
 import static org.testng.Assert.*;

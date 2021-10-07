@@ -1,7 +1,7 @@
 package com.company.custommasive;
 
 public class CustomMassive {
-    private int [] mas=null;
+    private int [] mas;
 
     public CustomMassive(){
     }

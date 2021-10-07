@@ -1,7 +1,7 @@
 package com.company.filereader;
 
 
-import com.company.service.impl.ValidatorImplementation;
+import com.company.validator.impl.ValidatorImplementation;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 

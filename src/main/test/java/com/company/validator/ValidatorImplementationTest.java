@@ -1,5 +1,6 @@
-package com.company.service.impl;
+package com.company.validator;
 
+import com.company.validator.impl.ValidatorImplementation;
 import org.testng.annotations.Test;
 
 import static org.testng.Assert.*;

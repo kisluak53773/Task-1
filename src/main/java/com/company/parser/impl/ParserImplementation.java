@@ -1,6 +1,6 @@
-package com.company.service.impl;
+package com.company.parser.impl;
 
-import com.company.service.Parser;
+import com.company.parser.Parser;
 
 public class ParserImplementation implements Parser {
 

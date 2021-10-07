@@ -1,6 +1,7 @@
-package com.company.service.impl;
+package com.company.validator.impl;
 
-import com.company.service.Validator;
+import com.company.parser.impl.ParserImplementation;
+import com.company.validator.Validator;
 
 public class ValidatorImplementation implements Validator {
     @Override
