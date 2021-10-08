@@ -6,9 +6,9 @@ public class ParserImplementation implements Parser {
 
     @Override
     public String[] Parse(String str) {
-        final String CHECK_REGEX="\\s+";
+        final String DELIMITER_REGEX="\\s+";
         str=str.trim();
-        String[] result=str.split(CHECK_REGEX);
+        String[] result=str.split(DELIMITER_REGEX);
         return result;
     }
 }
