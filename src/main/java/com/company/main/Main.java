@@ -12,8 +12,8 @@ public class Main {
     private final static Logger logger=LogManager.getLogger();
     public static void main(String[] args) throws URISyntaxException {
        File file=new File(Thread.currentThread().getContextClassLoader().getResource("data/info.txt").toURI());
-        StringConversionImplementation cnv=new StringConversionImplementation();
-        String str=ReadFromFile.read(file);
-        logger.info(str);
+       StringConversionImplementation cnv=new StringConversionImplementation();
+       String str=ReadFromFile.read(file);
+       logger.info(str);
     }
 }

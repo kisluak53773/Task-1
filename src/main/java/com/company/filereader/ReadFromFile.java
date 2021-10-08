@@ -20,9 +20,11 @@ public class ReadFromFile {
                 check= val.Validate(str);
             }
         } catch (FileNotFoundException e) {
-            logger.error("File not found");
+            logger.error(e.getMessage());
+            e.printStackTrace();
         } catch (IOException e) {
-            logger.error("IOException");
+            logger.error(e.getMessage());
+            e.printStackTrace();
         }
         return str;
     }
